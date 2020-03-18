@@ -1,0 +1,98 @@
+body{
+    background-image: url('https://avatars.mds.yandex.net/get-pdb/986926/46341706-7315-4270-857e-d4e30bbf8baf/s1200');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+ #head {
+      
+      font-size:50px;
+      font-weight:bolder;
+      justify-content: center;
+      text-align: center;
+ }
+
+  
+ #sub
+    {
+        -o-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+     -webkit-transition-duration: 0.3s; /* Safari */
+     transition-duration: 0.3s;
+        font-size:20px;
+        padding:12px 30px;
+        color:black;
+        border-radius:8px;
+        border:2px solid black;
+    }
+     #sub:hover
+    {
+        background-color: #00BFFF;
+        font-size:21px;
+        padding:12px 30px;
+        color:white;
+        border-radius:8px;
+        border:2px solid black;
+    }
+ #res
+ {
+     -o-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+     -webkit-transition-duration: 0.3s; /* Safari */
+     transition-duration: 0.3s;
+     color:black;
+     font-size:20px;
+      padding:12px 30px;
+      border-radius:8px;
+      border:2px solid black;
+ }
+ #res:hover
+ {
+     background-color:#FF6347;
+     color:white;
+     font-size:21px;
+      padding:12px 30px;
+      border-radius:8px;
+      border:2px solid black;
+ }
+ #edit
+ {
+ -o-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+     -webkit-transition-duration: 0.3s; /* Safari */
+     transition-duration: 0.3s;
+     color:black;
+     font-size:20px;
+      padding:12px 30px;
+      border-radius:8px;
+      border:2px solid black;
+ }
+  #edit:hover
+ {
+     background-color:#483D8B;
+     color:white;
+     font-size:20px;
+      padding:12px 30px;
+      border-radius:8px;
+      border:2px solid black;
+ }
+ 
+ 
+ #empty
+ {
+     color:red;
+ }
+   form {
+        background-color: #98FB98;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0 0 ;
+      padding: 25px 25px;
+      position: absolute;
+      border-radius:12px;
+      border: 5px solid gray;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } 
+  
